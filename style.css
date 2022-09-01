@@ -10,7 +10,7 @@
 
      .btncolor{ background-color: #7372dd;}
 
-    .heading{color: #67676e;}
+    .heading{color: #7ae085;}
 
     .skillbar {
         position:relative;
@@ -263,7 +263,7 @@ padding-bottom:7px;
 .contactIcons{
 font-size: 25px;
 border-radius: 50px;
-padding:6px 12px 6px 12px;
+padding:6px 15px 6px 15px;
 color:white;
 
 }
