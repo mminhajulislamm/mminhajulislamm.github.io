@@ -1,5 +1,4 @@
-
-    .btn{
+.btn{
          display: inline-block; 
          padding:16px; 
          border-radius: 8px;
@@ -10,7 +9,7 @@
 
      .btncolor{ background-color: #7372dd;}
 
-    .heading{color: #001a33;}
+    .heading{color: #67676e;}
 
     .skillbar {
         position:relative;
@@ -101,7 +100,7 @@
     
       body {
         font: 400 15px/1.8 Lato, sans-serif;
-        color: #777;
+        color: #080000;
       }
     
         /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -255,7 +254,7 @@ right:15px;
 bottom:15px;
 color:#7372dd;
 border-radius: 60px;
-background-color: #e3e3e7;
+background-color:linear-gradient(to bottom, #009999 0%, #66ff66 100%);
 padding:10px;
 padding-bottom:7px;
 }
@@ -263,7 +262,7 @@ padding-bottom:7px;
 .contactIcons{
 font-size: 25px;
 border-radius: 50px;
-padding:6px 15px 6px 15px;
+padding:6px 12px 6px 12px;
 color:white;
 
 }
@@ -271,7 +270,7 @@ color:white;
 .colmargin{margin-top:20px;}
 
 .footer{
-color: #7372dd;
+color:  #050515;
 padding-top:1%;
 padding-bottom:1% ;
 border-top:2px solid #e4e4e4;
