@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #d5e0de;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*  header  */
+
+header{
+	background-color: #000;
+	padding: 15px;
+}
+.logo a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #16c406;
+}
+.menu-list{
+	display: none;
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: flex-end;
+}
+.menu ul li{}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: #16c406;
+	padding: 0 15px;	
+}
+.menu ul li:hover{
+	border: 1px solid #16c406;
+	border-radius: 5px;
+	
+}
+
+/*   section  */
+
+.section{
+	background-image: linear-gradient(to bottom, #000000, #030303, #060606, #080909, #0b0c0c, #1c1d1d, #2a2c2c, #3a3c3c, #5d6161, #838989, #abb4b3, #d5e0df);
+}
+
+.section h1{
+	font-size: 48px;
+	font-family:'Playfair Display', sans-serif;
+	font-style: italic;
+	color: #fff;
+	padding-top: 230px;
+	text-align: center;
+}
+.section h1 span{
+	font-size: 50px;
+	font-style: italic;
+	font-weight: 600;
+}
+.section h5{
+	text-align: center;
+	font-family:'Poppins', sans-serif;;
+	color: #fff;
+	padding-bottom: 230px;
+}
+
+/*  about   */
+
+
+.info{
+	text-align: center;
+}
+.info img{
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	border-radius: 50%;
+}
+
+.skills{
+  width: 100%;
+  padding: 15px 40px;
+}
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.skill-bar{
+  height: 15px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.skill-per{
+  height: 15px;
+  background: #16c406;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 4s 1;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 3px 5px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  font-size: 10px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #f1f1f1;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@keyframes fillBars{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
+
+/*   works   */
+
+
+
+/*   contact   */
+
+.social{
+	text-align: right;
+}
+.social ul span a{
+	font-size: 28px;
+	color: #16c406;
+	padding: 0 15px;
+}
+.social ul span :hover{
+	transform: rotate3d(0, .8, 1, 40deg);
+	transition-duration: .5s;
+}
+
+/*   scrool arrow   */
+
+.top-button{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;	
+}
+.top-button span{
+	font-size: 25px;
+	color: green;
+}
+
+/*   footer  */
+.footer{
+	background-color: #060606;	
+	color:  #16c406;
+	padding: 5px;
+}
+
+
+/*   responsive css  */
+
+@media(max-width: 767px){
+
+	header{
+		position: relative;
+	}
+	.menu-list{
+		display: block;
+		text-align: right;
+	}
+	.menu-list span{
+		color: #16c406;
+		font-size: 18px;
+	}
+	.menu{
+		background-color: transparent;
+		position: absolute;
+		width: 100%;
+		top: 100%;
+		right: 0;
+		z-index: 9;
+		display: none;
+	}
+	.menu ul{
+		display: block;
+	}
+	.menu ul li a{
+		display: block;
+		padding: 8px 20px;
+	}
+	
+
+}
