@@ -218,6 +218,13 @@ header{
 		display: block;
 		padding: 8px 20px;
 	}
-	
 
+}
+
+@media(max-width: 575px){
+
+	.social ul span a{
+		display: block;
+		padding: 5px 0;
+	}
 }
