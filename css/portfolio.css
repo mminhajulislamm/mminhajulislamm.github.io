@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700;1,800&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
 
 *{
 	max-width: 100%;
@@ -67,7 +67,7 @@ header{
 .section h1 span{
 	font-size: 50px;
 	font-style: italic;
-	font-weight: 600;
+	font-weight: 800;
 }
 .section h5{
 	text-align: center;
@@ -218,7 +218,6 @@ header{
 		display: block;
 		padding: 8px 20px;
 	}
-
 }
 
 @media(max-width: 575px){
@@ -227,4 +226,8 @@ header{
 		display: block;
 		padding: 5px 0;
 	}
+
+	.social ul span :hover{
+	transform: translateX(-10px);
+	transition-duration: .5s;
 }
