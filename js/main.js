@@ -10,15 +10,24 @@
       scrollTop: $(this.hash).offset().top
       });
     });	
-	
+   // Active link switching
+  $(window).scroll(function() {
+    var scrollbarLocation = $(this).scrollTop();
+ 
+    scrollLink.each(function() {
+      var sectionOffset = $(this.hash).offset().top -50;
+      if ( sectionOffset <= scrollbarLocation ) {
+        $(this).parent().addClass('active-menu');//drop this class in li tag
+        $(this).parent().siblings().removeClass('active-menu');
+      }
+    });   
+  });
 	
 // menu-list  
 
 	$(".menu-list span").on('click', function(){
 		$('.menu').slideToggle('slow');
 	});
-
-	
 
 // topbutton 
 
