@@ -91,7 +91,7 @@ header{
 
 .skills{
   width: 100%;
-  padding: 15px 50px;
+  padding: 15px 80px;
 }
 .skill-name{
   font-size: 18px;
@@ -112,7 +112,7 @@ header{
   background: #16c406;
   border-radius: 3px;
   position: relative;
-  animation: fillBars 4s 1;
+  animation: fillBars 5s 1;
 }
 
 .skill-per::before{
@@ -163,7 +163,7 @@ header{
 	padding: 0 15px;
 }
 .social ul span :hover{
-	transform: rotate3d(0, .8, 1, 40deg);
+	transform: rotate3d(0, .8, 1, 45deg);
 	transition-duration: .5s;
 }
 
