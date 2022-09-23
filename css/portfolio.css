@@ -20,11 +20,7 @@ header{
 	background-color: #030303;
 	padding: 15px;
 }
-.logo a{
-	text-decoration: none;
-	font-size: 25px;
-	color: #16c406;
-}
+
 .menu-list{
 	display: none;
 }
