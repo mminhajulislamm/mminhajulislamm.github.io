@@ -71,6 +71,18 @@ header{
 	text-align: center;
 	font-family:'Poppins', sans-serif;;
 	color: #fff;
+	padding-bottom: 20px;
+}
+.btn-connect{
+	border: 2px solid #16c406;
+	border-radius: 20px;
+	background-color: transparent;
+	padding: 5px 25px;
+	color: #fff;	
+}
+
+.btn-connect:hover{
+	background-color:#16c406;
 }
 
 /*  about   */
