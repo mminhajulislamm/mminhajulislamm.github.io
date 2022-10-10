@@ -99,8 +99,10 @@ header{
 }
 
 .skills{
-  width: 100%;
-  padding: 15px 80px;
+  width: 600px;
+  max-width: 60%;
+  padding: 12px 0;
+  margin: auto;
 }
 .skill-name{
   font-size: 18px;
