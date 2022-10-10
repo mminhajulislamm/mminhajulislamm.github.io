@@ -50,6 +50,8 @@ header{
 
 .section{
 	background-image: linear-gradient(to bottom, #030303, #060606, #080909, #0b0c0c, #1c1d1d, #2a2c2c, #3a3c3c, #5d6161, #838989, #abb4b3, #d5e0df);
+	padding-top: 230px;
+	padding-bottom: 250px;
 }
 
 .section h1{
@@ -57,20 +59,18 @@ header{
 	font-family:'Playfair Display', sans-serif;
 	font-style: italic;
 	color: #fff;
-	padding-top: 230px;
 	text-align: center;
 }
 .section h1 span{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-style: italic;
 	font-weight: 800;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 .section h5 {
 	text-align: center;
 	font-family:'Poppins', sans-serif;;
 	color: #fff;
-	padding-bottom: 250px;
 }
 
 /*  about   */
