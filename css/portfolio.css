@@ -95,7 +95,7 @@ header{
 .profile img{
 	width: 280px;
 	height: 280px;
-	box-sizing: border-box;
+	border: 2px solid #16c406;
 	border-radius: 50%;
 }
 
