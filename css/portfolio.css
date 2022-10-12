@@ -161,7 +161,36 @@ header{
 }
 
 /*   works   */
+.works{
+	padding: 50px 0;
+}
+.info{
+	text-align: center;
+	margin: 15px auto;
+	width: 300px;
+	height: 200px;
+	border: 2px solid #030303;
+	border-radius: 15px;
+	padding-top: 15px;
 
+}
+
+.info:hover{
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+
+.info span i{
+		font-size: 3em;
+		color: #030303;
+		padding: 10px 0;
+}
+
+.info span i:hover{
+		color: #16c406;
+		transform: translateY(10px);
+		transition-duration: .8s;
+}
 
 /*   contact   */
 
