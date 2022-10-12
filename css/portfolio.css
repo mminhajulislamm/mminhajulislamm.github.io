@@ -89,10 +89,10 @@ header{
 /*  about   */
 
 
-.profile{
+.info{
 	text-align: center;
 }
-.profile img{
+.info img{
 	width: 280px;
 	height: 280px;
 	border: 2px solid #16c406;
@@ -164,7 +164,7 @@ header{
 .works{
 	padding: 50px 0;
 }
-.info{
+.work-info{
 	text-align: center;
 	margin: 15px auto;
 	width: 300px;
@@ -174,18 +174,18 @@ header{
 	padding-top: 15px;
 }
 
-.info:hover{
+.work-info:hover{
 	transform: scale(1.1);
 	transition-duration: 1s;
 }
 
-.info span i{
+.work-info span i{
 		font-size: 3em;
 		color: #030303;
 		padding: 10px 0;
 }
 
-.info span i:hover{
+.work-info span i:hover{
 		color: #16c406;
 		transform: translateY(10px);
 		transition-duration: .8s;
