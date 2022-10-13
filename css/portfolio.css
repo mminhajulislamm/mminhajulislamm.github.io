@@ -95,8 +95,8 @@ header{
 .profile img{
 	width: 280px;
 	height: 280px;
-	border: 2px solid #16c406;
 	border-radius: 50%;
+	box-shadow: 0 0 15px #16c406;
 }
 
 .skills{
@@ -170,12 +170,13 @@ header{
 	width: 300px;
 	height: 200px;
 	border: 2px solid #030303;
-	border-radius: 15px;
-	padding-top: 15px;
+	border-radius: 5px 20px;
+	padding: 15px 10px;
 
 }
 
 .info:hover{
+	box-shadow: 0 0 10px #16c406;
 	transform: scale(1.1);
 	transition-duration: 1s;
 }
