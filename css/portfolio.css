@@ -168,15 +168,15 @@ header{
 	text-align: center;
 	margin: 15px auto;
 	width: 300px;
-	height: 200px;
-	border: 2px solid #030303;
+	height: 180px;
 	border-radius: 5px 20px;
+	box-shadow: 0 0 10px #16c406;
 	padding: 15px 10px;
 
 }
 
 .info:hover{
-	box-shadow: 0 0 8px #16c406;
+	border: 1px solid #030303;
 	transform: scale(1.1);
 	transition-duration: 1s;
 }
