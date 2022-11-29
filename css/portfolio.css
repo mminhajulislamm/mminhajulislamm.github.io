@@ -163,8 +163,8 @@ header{
   }
 }
 
-/*   works   */
-.works{
+/*   services   */
+.services{
 	padding: 50px 0;
 }
 .info{
@@ -196,6 +196,35 @@ header{
 		transition-duration: .8s;
 }
 
+
+/*  works */
+.works{
+		padding: 30px 0;
+}
+.work-project{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+		justify-content: center;
+		align-items: center;
+}
+.project{
+		width: 350px;
+		height: auto;
+		padding: 5px;
+		border-radius: 10px;
+		margin: 20px;
+		background: linear-gradient(to top, #16c406 30%, #030303 90%);
+		transform: skew(-5deg);
+}
+
+.project:hover{
+		transform: skew(0deg);
+		transition-duration: .8s;
+}
+.project .img-info{
+		text-align: center;
+		padding: 5px 0;
+}
 /*   contact   */
 
 .social{
