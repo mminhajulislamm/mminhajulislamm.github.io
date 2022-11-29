@@ -44,10 +44,14 @@ header{
 	color: #16c406;
 	padding: 0 15px;	
 }
-.menu ul li:hover{
-	border: 1px solid #16c406;
-	border-radius: 5px;
+
+
+.menu ul li a:hover{
 	
+	border-radius: 5px;
+	color: #000;
+	background-color: #16c406;
+	transition-duration: .7s;
 }
 
 /*   section  */
