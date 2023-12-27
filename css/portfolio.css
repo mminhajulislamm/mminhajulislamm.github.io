@@ -305,6 +305,14 @@ header{
 
 @media(max-width: 575px){
 
+	.work-project{
+		display: inline-block;
+		justify-content: center;
+	}
+	.project{
+		width: 260px;
+		height: auto;
+	}
 	.social ul span a{
 		display: block;
 		padding: 5px 0;
