@@ -13,6 +13,9 @@ img{
 	max-width: 100%;
 	height: auto;
 }
+a{
+	text decoration: none;
+}
 
 /*  header  */
 
@@ -294,6 +297,9 @@ header{
 	.menu ul li a{
 		display: block;
 		padding: 8px 20px;
+	}
+	.section h1 span{
+		font-size: 1em;
 	}
 }
 
