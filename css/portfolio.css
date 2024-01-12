@@ -265,7 +265,7 @@ header{
 .footer p a{
 	text-decoration: none;
 	color:  #16c406;
-
+}
 
 /*   responsive css  */
 
@@ -321,4 +321,5 @@ header{
 	.social ul span :hover{
 	transform: translateX(-10px);
 	transition-duration: .5s;
+	}
 }
