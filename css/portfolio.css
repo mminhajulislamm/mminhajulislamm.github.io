@@ -308,6 +308,7 @@ header{
 	.work-project{
 		display: inline-block;
 		justify-content: center;
+		margin: auto;
 	}
 	.project{
 		width: 260px;
