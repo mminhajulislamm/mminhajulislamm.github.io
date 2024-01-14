@@ -306,9 +306,7 @@ header{
 @media(max-width: 575px){
 
 	.work-project{
-		display: inline-block;
 		justify-content: center;
-		margin: auto;
 	}
 	.project{
 		width: 260px;
