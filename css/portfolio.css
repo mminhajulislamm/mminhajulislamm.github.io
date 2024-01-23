@@ -305,12 +305,10 @@ header{
 
 @media(max-width: 575px){
 
-	.work-project{
-		justify-content: center;
-	}
 	.project{
 		width: 260px;
 		height: auto;
+		margin: 15px auto;
 	}
 	.social ul span a{
 		display: block;
