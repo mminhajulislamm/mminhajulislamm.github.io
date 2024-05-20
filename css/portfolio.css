@@ -95,20 +95,26 @@ header{
 
 /*  about   */
 
-
+.about{
+	padding: 30px 0;
+}
 .profile{
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: space-evenly;
 	align-items: center;
+	
 }
 .profile img{
-	width: 280px;
-	height: 280px;
+	width: 260px;
+	height: 260px;
 	border-radius: 50%;
-	box-shadow: 0 0 12px #16c406;
+	box-shadow: 0 0 15px #16c406;
+	margin: 15px;
+
 }
+
 .profile .p-des{
 	margin: 15px;
 }
@@ -176,7 +182,7 @@ header{
 
 /*   services   */
 .services{
-	padding: 50px 0;
+	padding: 30px 0;
 }
 .info{
 	text-align: center;
