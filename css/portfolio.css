@@ -105,6 +105,9 @@ header{
 	border-radius: 50%;
 	box-shadow: 0 0 12px #16c406;
 }
+.profile .p-des{
+	margin: 15px;
+}
 
 .skills{
   width: 600px;
