@@ -229,18 +229,35 @@ header{
 		text-align: center;
 		padding: 5px 0;
 }
-/*   contact   */
 
-.social{
-	text-align: right;
+/*   footer  */
+.footer{
+	background-image: linear-gradient(to top, #060606,#101010, #353535, #67686c, #9ba2a5, #d5e0de);
+	color:  #16c406;
+	padding: 10px 25px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+
 }
-.social ul span a{
-	font-size: 28px;
+.footer a{
+	text-decoration: none;
 	color: #16c406;
-	padding: 0 15px;
+}
+
+.social ul{
+	margin: 0;
+}
+
+.social ul span a{
+	font-size: 25px;
+	color: #16c406;
+	padding-left: 20px;
 }
 .social ul span :hover{
-	transform: rotate3d(0, .8, 1, 45deg);
+	transform: rotate3d(0, .8, 1, 40deg);
 	transition-duration: .5s;
 }
 
@@ -256,16 +273,7 @@ header{
 	color: green;
 }
 
-/*   footer  */
-.footer{
-	background-color: #030303;	
-	color:  #16c406;
-	padding: 5px;
-}
-.footer p a{
-	text-decoration: none;
-	color:  #16c406;
-}
+
 
 /*   responsive css  */
 
@@ -310,13 +318,7 @@ header{
 		height: auto;
 		margin: 15px auto;
 	}
-	.social ul span a{
+	.footer{
 		display: block;
-		padding: 5px 0;
-	}
-
-	.social ul span :hover{
-	transform: translateX(-10px);
-	transition-duration: .5s;
 	}
 }
